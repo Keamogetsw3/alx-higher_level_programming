@@ -1,10 +1,10 @@
-#alx-higher_level_programming
+# alx-higher_level_programming
 
-##Information
-This repository
+## Information
+- This repository
 
 
-##Projects found in this repository
+## Projects found in this repository
 
-####0x00. Python - Hello, World
+#### 0x00. Python - Hello, World
 - Basic introduction to Python
