@@ -1,13 +1,15 @@
-# The ``def matrix_multiply`` module
+# The ``100-matrix_mul`` module
 ==========================================
 
-Using ``def matrix_multiply`` function
+This module defines matrix multiplication function '' matrix_mul'' 
+
+How to use  `` matrix_mul`` function
 ======================================================================
 
 Importing the function def matrix_multiply.
->>> def matrix_multiply = __import__('0-add_integer').def matrix_multiply
+        >>> matrix_mul = __import__('100-matrix_mul').matrix_mul
 
-`def matrix_multiply()` returns the sum of its arguments. The default argument for b is 98. For numbers, that value is equivalent to using the ``+`` operator:
->>> def matrix_multiply(1, 2)
-3
+`matrix_multiply()` returns the products of its arguments. The default argument for b is 98. For numbers, that value is equivalent to using the ``x`` operator:
+>>> def matrix_mult(1, 2)
+2
 
