@@ -1,0 +1,13 @@
+# The ``def add_integer`` module
+======================================
+
+Using ``def add_integer`` function
+==================================================================
+
+Importing the function def add_integer.
+>>> def add_integer = __import__('0-add_integer').def add_integer
+
+`def add_integer()` returns the sum of its arguments. The default argument for b is 98. For numbers, that value is equivalent to using the ``+`` operator:
+>>> def add_integer(1, 2)
+3
+

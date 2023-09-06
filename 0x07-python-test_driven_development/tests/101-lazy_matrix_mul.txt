@@ -1,0 +1,13 @@
+# The ``def matrix_multiplication`` module
+================================================
+
+Using ``def matrix_multiplication`` function
+============================================================================
+
+Importing the function def matrix_multiplication.
+>>> def matrix_multiplication = __import__('0-add_integer').def matrix_multiplication
+
+`def matrix_multiplication()` returns the sum of its arguments. The default argument for b is 98. For numbers, that value is equivalent to using the ``+`` operator:
+>>> def matrix_multiplication(1, 2)
+3
+
