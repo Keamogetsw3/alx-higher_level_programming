@@ -1,6 +1,6 @@
 import os
 import ast
-import astor  # Import astor
+import astor
 
 def extract_docstrings_and_code(file_path):
     """
@@ -20,7 +20,7 @@ def extract_docstrings_and_code(file_path):
             if isinstance(node, (ast.FunctionDef, ast.ClassDef)):
                 docstring = ast.get_docstring(node)
                 if docstring:
-                    code = astor.to_source(node)  # Use astor to unparse the node
+                    code = astor.to_source(node)
                     docstring_code_pairs.append((docstring, code))
     return docstring_code_pairs
 
@@ -35,11 +35,24 @@ def generate_doctest_documentation(docstring_code_pairs):
         str: Doctest documentation.
     """
     doctest_doc = ""
+
     for docstring, code in docstring_code_pairs:
-        doctest_doc += f'"""\n{docstring}\n"""\n'
-        doctest_doc += f"def test_{code.strip().split('(')[0]}():\n"
-        doctest_doc += f'    r"""\n    >>> {code.strip()}\n    """\n'
-        doctest_doc += f'    pass\n\n'
+        function_name = code.strip().split('(')[0].strip()
+        doctest_doc += f"# The ``{function_name}`` module\n"
+        doctest_doc += "=" * (len(function_name) + 23) + "\n\n"
+
+        doctest_doc += f"Using ``{function_name}`` function\n"
+        doctest_doc += "=" * (len(f"Using ``{function_name}`` function") + 32) + "\n\n"
+
+        doctest_doc += f"Importing the function {function_name}.\n"
+        doctest_doc += f">>> {function_name} = __import__('0-add_integer').{function_name}\n\n"
+
+        doctest_doc += f"`{function_name}()` returns the sum of its arguments. The default argument for b is 98. For numbers, that value is equivalent to using the ``+`` operator:\n"
+        doctest_doc += f">>> {function_name}(1, 2)\n"
+        doctest_doc += "3\n\n"
+
+        # Add more test cases as needed, following the same pattern
+
     return doctest_doc
 
 def process_files_in_folder(folder_path):
@@ -54,8 +67,9 @@ def process_files_in_folder(folder_path):
             file_path = os.path.join(folder_path, filename)
             docstring_code_pairs = extract_docstrings_and_code(file_path)
             doctest_doc = generate_doctest_documentation(docstring_code_pairs)
-            
-            output_filename = f"tests/{filename}.txt"
+
+            # Remove the ".py" extension from the output filename
+            output_filename = f"tests/doctest_{filename[:-3]}.txt"
             with open(output_filename, "w") as output_file:
                 output_file.write(doctest_doc)
 
