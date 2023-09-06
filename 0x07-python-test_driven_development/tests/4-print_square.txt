@@ -1,13 +1,11 @@
-# The ``def print_square`` module
+# The ``4-print_square`` module
 =======================================
 
-Using ``def print_square`` function
+This module defines a funtion ''print_square''
+
+Using ``print_square`` function
 ===================================================================
 
 Importing the function def print_square.
->>> def print_square = __import__('0-add_integer').def print_square
-
-`def print_square()` returns the sum of its arguments. The default argument for b is 98. For numbers, that value is equivalent to using the ``+`` operator:
->>> def print_square(1, 2)
-3
+>>> print_square = __import__('4-print_square').print_square
 
