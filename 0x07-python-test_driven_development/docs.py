@@ -59,5 +59,5 @@ def process_files_in_folder(folder_path):
                 output_file.write(doctest_doc)
 
 if __name__ == "__main__":
-    input_folder = "your_folder_path"  # Replace with the path to the folder containing Python files
-    process_files_in_folder(/alx-higher_level_programming/0x07-python-test_driven_development)
+    input_folder = "/alx-higher_level_programming/0x07-python-test_driven_development"  # Replace with the correct folder path
+    process_files_in_folder(input_folder)
