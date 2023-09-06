@@ -69,7 +69,7 @@ def process_files_in_folder(folder_path):
             doctest_doc = generate_doctest_documentation(docstring_code_pairs)
 
             # Remove the ".py" extension from the output filename
-            output_filename = f"tests/doctest_{filename[:-3]}.txt"
+            output_filename = f"tests/{filename[:-3]}.txt"
             with open(output_filename, "w") as output_file:
                 output_file.write(doctest_doc)
 
