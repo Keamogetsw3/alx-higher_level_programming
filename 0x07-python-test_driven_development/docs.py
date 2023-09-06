@@ -55,7 +55,7 @@ def process_files_in_folder(folder_path):
             docstring_code_pairs = extract_docstrings_and_code(file_path)
             doctest_doc = generate_doctest_documentation(docstring_code_pairs)
             
-            output_filename = f"tests/doctest_{filename}.txt"
+            output_filename = f"tests/{filename}.txt"
             with open(output_filename, "w") as output_file:
                 output_file.write(doctest_doc)
 
