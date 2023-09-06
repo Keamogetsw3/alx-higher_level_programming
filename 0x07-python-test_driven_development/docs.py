@@ -1,5 +1,6 @@
 import os
 import ast
+import astor  # Import astor
 
 def extract_docstrings_and_code(file_path):
     """
@@ -19,7 +20,7 @@ def extract_docstrings_and_code(file_path):
             if isinstance(node, (ast.FunctionDef, ast.ClassDef)):
                 docstring = ast.get_docstring(node)
                 if docstring:
-                    code = ast.unparse(node)
+                    code = astor.to_source(node)  # Use astor to unparse the node
                     docstring_code_pairs.append((docstring, code))
     return docstring_code_pairs
 
