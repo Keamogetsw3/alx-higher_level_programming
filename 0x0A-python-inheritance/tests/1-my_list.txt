@@ -1,0 +1,19 @@
+the ''1-my_list.py'' module
+=======================================================
+
+The ''my_list.py''module Print the elements of the list in ascending order.
+
+Usage of the ''my_list'' function
+===========================================================
+
+Create an instance of `MyList` with or without arguments.
+
+Creating an empty `MyList`:
+
+```python
+>>> from my_list_module import MyList
+>>> my_list = MyList()
+>>> type(my_list)
+<class 'my_list_module.MyList'>
+>>> print(my_list)
+[]
