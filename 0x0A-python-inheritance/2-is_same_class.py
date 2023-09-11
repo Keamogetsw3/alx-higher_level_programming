@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-""
-Module for is_same_class
+""" 
+Module for is_same_class 
 """
 
 
