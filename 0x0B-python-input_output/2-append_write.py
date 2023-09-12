@@ -10,7 +10,7 @@ def append_to_file(filename="", text=""):
     Args:
        filename (str): The file to which text will be appended.
        text (str): The text to be appended.
-       
+
        Returns:
        int: The number of characters appended.
     '''
