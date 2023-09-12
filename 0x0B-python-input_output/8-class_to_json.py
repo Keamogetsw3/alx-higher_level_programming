@@ -1,13 +1,12 @@
 #!/usr/bin/python3
 """
-Defines a Python function for converting a class instance to a JSON-like dictionary.
+Defines a function for converting a class instance to a JSON-like dictionary.
 """
 
 
 def class_to_json(obj):
     """
-    Returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object.
-    
+    Returns the dictionary description with simple data structure.
     Args:
         obj (object): The object to be converted into a dictionary.
 
