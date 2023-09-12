@@ -6,7 +6,7 @@ import json
 
 def to_json_string(my_obj):
     """
-    Converts a Python object into a JSON string and returns the JSON representation of an object (string).
+    Converts a Python object into a JSON string.
 
     Args:
         my_obj (any): The Python object to be converted to JSON.
