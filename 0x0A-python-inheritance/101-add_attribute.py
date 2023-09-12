@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-Defines a function that adds attributes to objects.
+Module: attribute_adder
+
+This module efines a function that adds attributes to objects.
 """
 
 
