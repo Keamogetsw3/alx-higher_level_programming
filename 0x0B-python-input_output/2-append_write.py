@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-""" 
-Defines function that appends a string at the end of a text file (UTF8) 
+"""
+Defines function that appends a string at the end of a text file (UTF8)
 """
 
 
