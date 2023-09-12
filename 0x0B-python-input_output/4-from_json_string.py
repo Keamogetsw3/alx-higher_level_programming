@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Defines a function that returns an object (Python data structure) represented by a JSON string.
+Defines a function that returns an object (Python data structure).
 """
 import json
 
