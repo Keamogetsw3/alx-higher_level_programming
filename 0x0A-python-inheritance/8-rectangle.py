@@ -1,18 +1,13 @@
 #!/usr/bin/python3
-"""
-    Module that provides information about the available attributes and methods of an object.
-"""
+"""Module for defining a Rectangle class based on BaseGeometry."""
+
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 class Rectangle(BaseGeometry):
-    """ 
-    A class that represents a rectangle, inheriting from the BaseGeometry class.
-    """
+    """A class representing a rectangle."""
 
     def __init__(self, width, height):
-        """ 
-        Initializes an instance of the Rectangle class with width and height parameters.
-        """
+        """Initialize a Rectangle instance with specified width and height."""
         self.integer_validator("width", width)
         self.integer_validator("height", height)
         self.__width = width
