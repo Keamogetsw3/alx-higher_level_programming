@@ -1,0 +1,11 @@
+# The ``100-matrix_mul`` module
+==========================================
+
+This module defines matrix multiplication function '' matrix_mul'' 
+
+How to use  `` matrix_mul`` function
+======================================================================
+
+Importing the function def matrix_multiply.
+        >>> matrix_mul = __import__('100-matrix_mul').matrix_mul
+

@@ -1,0 +1,9 @@
+# The ``5-text_indentation`` module
+===========================================
+
+Using ``text_indentation`` function
+=======================================================================
+
+Importing the function def text_indentation.
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+

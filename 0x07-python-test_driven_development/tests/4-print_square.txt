@@ -1,0 +1,11 @@
+# The ``4-print_square`` module
+=======================================
+
+This module defines a funtion ''print_square''
+
+Using ``print_square`` function
+===================================================================
+
+Importing the function def print_square.
+>>> print_square = __import__('4-print_square').print_square
+

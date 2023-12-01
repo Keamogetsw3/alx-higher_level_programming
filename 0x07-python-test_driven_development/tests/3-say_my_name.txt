@@ -1,0 +1,11 @@
+# The ``3-say_my_name`` module
+=====================================
+
+This module defines a function '' say_my_name'' that takes two str arguments
+
+Using ``say_my_name`` function
+=================================================================
+
+Importing the function def print_name.
+      >>> say_my_name = __import__('3-say_my_name').say_my_name
+
