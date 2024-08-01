@@ -17,7 +17,7 @@ True
 Class Overview
 =======================
 
-Import a class named 'MyList' from a module named '1-my_list'. 
+Imports a class named 'MyList' from a module named '1-my_list'. 
 
 Import module:
 >>> MyList = __import__("1-my_list").MyList
@@ -29,7 +29,7 @@ Checking for class docstring:
 >>> len(c) > 1
 True
 
-Check if 'MyList' inherits from 'list'.
+Check if 'MyList' inherits 'list'.
 
 Checking that MyList is a subclass of list:
 >>> MyList = __import__('1-my_list').MyList
