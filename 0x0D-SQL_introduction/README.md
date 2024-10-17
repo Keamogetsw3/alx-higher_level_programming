@@ -1,6 +1,10 @@
 # 0x0D. SQL - Introduction
 ## Project Overview
 
+
+![image](https://github.com/user-attachments/assets/145c4308-a8bf-4e5c-acc5-b9294767c1c5)
+![image](https://github.com/user-attachments/assets/4b368271-b3af-4fcd-b51b-863f7ce613f2)
+
 This project introduces SQL and MySQL, focusing on fundamental concepts and commands used in relational databases.
 
 ## Concepts
