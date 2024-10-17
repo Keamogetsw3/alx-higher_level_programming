@@ -105,12 +105,36 @@ By the end of this project, you should be able to explain:
   - **Document-based Databases**: Like MongoDB, which stores data as flexible documents (often in JSON format).  
   - **Key-Value Stores**: Like Redis, which stores data as key-value pairs, useful for fast retrieval of simple data.  
 
-Feel free to copy this formatted text!
 - What a relational database is.
+   - A relational database (RDB) is a way of structuring information in tables, rows, and columns.
+   - An RDB has the ability to establish links—or relationships–between information by joining tables
+   - which makes it easy to understand and gain insights about the relationship between various data points.
+   - A **relational database management system (RDBMS)** is a program used to create, update, and manage relational databases.
+   - Some of the most well-known RDBMSs include **MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, and Oracle Database**.
+
 - What SQL stands for.
+   - Invented by Don Chamberlin and Ray Boyce at IBM, Structured Query Language (SQL) is the standard programming language for interacting with relational database management systems,
+   -  allowing database administrator to add, update, or delete rows of data easily.
+   -  Originally known as SEQUEL, it was simplified to SQL due to a trademark issue.
+   -  SQL queries also allows users to retrieve data from databases using only a few lines of code.
+   -  Given this relationship, it’s easy to see why relational databases are also referred to as “SQL databases” at times. 
+
 - What MySQL is.
 - How to create a database in MySQL.
 - The meanings of DDL and DML.
+- Some of The Most Important SQL Commands
+   - SELECT - extracts data from a database
+   - UPDATE - updates data in a database
+   - DELETE - deletes data from a database
+   - INSERT INTO - inserts new data into a database
+   - CREATE DATABASE - creates a new database
+   - ALTER DATABASE - modifies a database
+   - CREATE TABLE - creates a new table
+   - ALTER TABLE - modifies a table
+   - DROP TABLE - deletes a table
+   - CREATE INDEX - creates an index (search key)
+   - DROP INDEX - deletes an index
+
 - How to CREATE or ALTER a table.
 - How to SELECT data from a table.
 - How to INSERT, UPDATE, or DELETE data.
