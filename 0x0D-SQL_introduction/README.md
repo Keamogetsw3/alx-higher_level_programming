@@ -13,9 +13,9 @@ This project introduces SQL and MySQL, focusing on fundamental concepts and comm
 3. [Resources](#resources)
 4. [Learning Objectives](#learning-objectives)
    - [Databases](#databases)
-   - [What a relational database is](#what-a-relational-database-is)
-   - [What SQL stands for](#what-sql-stands-for)
-   - [What MySQL is](#what-mysql-is)
+   - [Relational database](#relational-database)
+   - [SQL](#sql)
+   - [MySQL](#mysql)
    - [How to create a database in MySQL](#how-to-create-a-database-in-mysql)
    - [The meanings of DDL and DML](#the-meanings-of-ddl-and-dml)
    - [How to CREATE or ALTER a table](#how-to-create-or-alter-a-table)
@@ -105,6 +105,7 @@ By the end of this project, you should be able to explain:
   - **Document-based Databases**: Like MongoDB, which stores data as flexible documents (often in JSON format).  
   - **Key-Value Stores**: Like Redis, which stores data as key-value pairs, useful for fast retrieval of simple data.  
 
+### Relational databases
 - What a relational database is.
    - A relational database (RDB) is a way of structuring information in tables, rows, and columns.
    - An RDB has the ability to establish links—or relationships–between information by joining tables
@@ -112,6 +113,7 @@ By the end of this project, you should be able to explain:
    - A **relational database management system (RDBMS)** is a program used to create, update, and manage relational databases.
    - Some of the most well-known RDBMSs include **MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, and Oracle Database**.
 
+### SQL
 - What SQL stands for.
    - Invented by Don Chamberlin and Ray Boyce at IBM, Structured Query Language (SQL) is the standard programming language for interacting with relational database management systems,
    -  allowing database administrator to add, update, or delete rows of data easily.
@@ -119,7 +121,9 @@ By the end of this project, you should be able to explain:
    -  SQL queries also allows users to retrieve data from databases using only a few lines of code.
    -  Given this relationship, it’s easy to see why relational databases are also referred to as “SQL databases” at times. 
 
+### MySQL
 - What MySQL is.
+   - MySQL is an open source relational database management system (RDBMS) that's used to store and manage data
 - How to create a database in MySQL.
 - The meanings of DDL and DML.
 - Some of The Most Important SQL Commands
