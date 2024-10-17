@@ -12,7 +12,7 @@ This project introduces SQL and MySQL, focusing on fundamental concepts and comm
 2. [Concepts](#concepts)
 3. [Resources](#resources)
 4. [Learning Objectives](#learning-objectives)
-   - [Databases](#databaese)
+   - [Databases](#databases)
    - [What a relational database is](#what-a-relational-database-is)
    - [What SQL stands for](#what-sql-stands-for)
    - [What MySQL is](#what-mysql-is)
