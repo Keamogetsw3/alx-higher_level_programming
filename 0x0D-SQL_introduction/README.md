@@ -7,6 +7,25 @@
 
 This project introduces SQL and MySQL, focusing on fundamental concepts and commands used in relational databases.
 
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Concepts](#concepts)
+3. [Resources](#resources)
+4. [Learning Objectives](#learning-objectives)
+   - [What a database is](#what-a-database-is)
+   - [What a relational database is](#what-a-relational-database-is)
+   - [What SQL stands for](#what-sql-stands-for)
+   - [What MySQL is](#what-mysql-is)
+   - [How to create a database in MySQL](#how-to-create-a-database-in-mysql)
+   - [The meanings of DDL and DML](#the-meanings-of-ddl-and-dml)
+   - [How to CREATE or ALTER a table](#how-to-create-or-alter-a-table)
+   - [How to SELECT data from a table](#how-to-select-data-from-a-table)
+   - [How to INSERT, UPDATE, or DELETE data](#how-to-insert-update-or-delete-data)
+   - [What subqueries are and how to use them](#what-subqueries-are-and-how-to-use-them)
+   - [How to use MySQL functions](#how-to-use-mysql-functions)
+5. [Requirements](#requirements)
+
+
 ## Concepts
 
 For this project, familiarize yourself with the following concepts:
