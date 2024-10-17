@@ -16,7 +16,7 @@ This project introduces SQL and MySQL, focusing on fundamental concepts and comm
    - [Relational database](#relational-database)
    - [SQL](#sql)
    - [MySQL](#mysql)
-   - [How to create a database in MySQL](#how-to-create-a-database-in-mysql)
+      - [How to create a database in MySQL](#how-to-create-a-database-in-mysql)
    - [The meanings of DDL and DML](#the-meanings-of-ddl-and-dml)
    - [How to CREATE or ALTER a table](#how-to-create-or-alter-a-table)
    - [How to SELECT data from a table](#how-to-select-data-from-a-table)
