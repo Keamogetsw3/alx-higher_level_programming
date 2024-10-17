@@ -122,9 +122,14 @@ By the end of this project, you should be able to explain:
    -  Given this relationship, it’s easy to see why relational databases are also referred to as “SQL databases” at times. 
 
 ### MySQL
-- What MySQL is.
+- ### What MySQL is.
    - MySQL is an open source relational database management system (RDBMS) that's used to store and manage data
-- How to create a database in MySQL.
+- ### How to create a database in MySQL.
+  ``` python
+  CREATE DATABASE my_database; #The CREATE DATABASE statement is used to create a new SQL database.
+  SHOW DATABASES; #check if the database was created successfully
+
+
 - The meanings of DDL and DML.
 - Some of The Most Important SQL Commands
    - SELECT - extracts data from a database
