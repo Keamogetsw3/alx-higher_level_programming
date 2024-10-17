@@ -17,7 +17,7 @@ This project introduces SQL and MySQL, focusing on fundamental concepts and comm
    - [SQL](#sql)
    - [MySQL](#mysql)
       - [How to create a database in MySQL](#how-to-create-a-database-in-mysql)
-   - [The meanings of DDL and DML](#the-meanings-of-ddl-and-dml)
+      - [The meanings of DDL and DML](#the-meanings-of-ddl-and-dml)
    - [How to CREATE or ALTER a table](#how-to-create-or-alter-a-table)
    - [How to SELECT data from a table](#how-to-select-data-from-a-table)
    - [How to INSERT, UPDATE, or DELETE data](#how-to-insert-update-or-delete-data)
@@ -129,8 +129,36 @@ By the end of this project, you should be able to explain:
   CREATE DATABASE my_database; #The CREATE DATABASE statement is used to create a new SQL database.
   SHOW DATABASES; #check if the database was created successfully
 
+- ### The meanings of DDL and DML.
+   - DDL (Data Definition Language)
+     - DDL commands are used to define and manage all aspects of the database structure.
+     - This includes creating, altering, and deleting database objects such as tables, indexes, and schemas. Common DDL commands include:
+      
+     - CREATE: Used to create new database objects (e.g., tables, views).
+     - Example: CREATE TABLE students (id INT, name VARCHAR(100));
+     -  ALTER: Used to modify existing database objects. 
+     - Example: ALTER TABLE students ADD COLUMN age INT;
+     - DROP: Used to delete database objects.
+     - Example: DROP TABLE students;
+     - TRUNCATE: Used to remove all records from a table but keeps the structure intact.
+     - Example: TRUNCATE TABLE students;
+       
+   - DML (Data Manipulation Language)
+      - DML commands are used to manipulate data stored within the database.
+      - This includes inserting, updating, deleting, and retrieving data. Common DML commands include:
 
-- The meanings of DDL and DML.
+      - SELECT: Used to retrieve data from one or more tables.
+      - Example: SELECT * FROM students;
+      - INSERT: Used to add new records to a table.
+      - Example: INSERT INTO students (id, name) VALUES (1, 'Alice');
+      - UPDATE: Used to modify existing records in a table.
+      - Example: UPDATE students SET age = 21 WHERE id = 1;
+      - DELETE: Used to remove records from a table.
+      - Example: DELETE FROM students WHERE id = 1;
+   - Summary
+   DDL (Data Definition Language): Manages the structure of the database (e.g., CREATE, ALTER, DROP).
+   DML (Data Manipulation Language): Manages the data within the database (e.g., SELECT, INSERT, UPDATE, DELETE).
+
 - Some of The Most Important SQL Commands
    - SELECT - extracts data from a database
    - UPDATE - updates data in a database
