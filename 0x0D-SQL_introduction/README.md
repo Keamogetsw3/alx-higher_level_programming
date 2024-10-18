@@ -18,7 +18,7 @@ This project introduces SQL and MySQL, focusing on fundamental concepts and comm
    - [MySQL](#mysql)
       - [How to create a database in MySQL](#how-to-create-a-database-in-mysql)
       - [The meanings of DDL and DML](#the-meanings-of-ddl-and-dml)
-   - [How to CREATE or ALTER a table](#how-to-create-or-alter-a-table)
+      - [How to CREATE or ALTER a table](#how-to-create-or-alter-a-table)
    - [How to SELECT data from a table](#how-to-select-data-from-a-table)
    - [How to INSERT, UPDATE, or DELETE data](#how-to-insert-update-or-delete-data)
    - [What subqueries are and how to use them](#what-subqueries-are-and-how-to-use-them)
@@ -173,6 +173,15 @@ By the end of this project, you should be able to explain:
    - DROP INDEX - deletes an index
 
 - How to CREATE or ALTER a table.
+   - The column parameters specify the names of the columns of the table.
+   - The datatype parameter specifies the type of data the column can hold (e.g. varchar, integer, date, etc.). 
+  ```
+  CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+   );
 - How to SELECT data from a table.
 - How to INSERT, UPDATE, or DELETE data.
 - What subqueries are and how to use them.
