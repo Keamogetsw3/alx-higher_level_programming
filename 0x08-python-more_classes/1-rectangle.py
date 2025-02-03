@@ -23,7 +23,7 @@ class Rectangle:
         """
             method for returning the width attribute
             Returns:
-                    width of the rectangle        
+                    width of the rectangle  
         """
         return self.__width
 
