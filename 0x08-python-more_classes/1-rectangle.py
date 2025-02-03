@@ -7,7 +7,7 @@ Define a class called Rectangle
 class Rectangle:
     """ Represent an empty class for creating rectangles """
     def __init__(self, width=0, height=0):
-        """ 
+        """
             Initialize the Rectangle with optional width and height arguments
 
             args:
@@ -20,12 +20,10 @@ class Rectangle:
 
     @property
     def width(self):
-        """ 
+        """
             method for returning the width attribute
-            
             Returns:
-                    width of the rectangle
-                    
+                    width of the rectangle        
         """
         return self.__width
 
@@ -33,12 +31,12 @@ class Rectangle:
     def width(self, value):
         """
             method that defines the width attribute
-            
             args:
                 value:
         """
         if not isinstance(value, int):
-            """ Check if the provided value is an integer, raise an error if not
+            """ Check if the provided value is an integer,
+            raise an error if not
             """
             raise TypeError("width must be an integer")
         if value < 0:
@@ -54,7 +52,6 @@ class Rectangle:
     @height.setter
     def height(self, value):
         """ Setter method for the height attribute
-        
             args:
                 value:
         """
