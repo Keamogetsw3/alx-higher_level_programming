@@ -1,16 +1,12 @@
 #!/usr/bin/python3
 """
-Defines a single function that prints a squaree
+This is the "4-print_square" module.
+The 4-print_square  module supplies one function, print_square(size).
 """
 
 
 def print_square(size):
-    """
-    Prints a square made of "#" characters with each side having a length equal to 'size'.
-
-    args:
-        size (param): An integer specifying the length of each side of the square.
-    """
+    """prints a square with "#"'s that has a length of size """
     if type(size) is not int:
         raise TypeError("size must be an integer")
     if size < 0:
