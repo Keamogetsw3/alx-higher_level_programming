@@ -100,7 +100,8 @@ class Rectangle:
 
     def __str__(self):
         """
-        Returns a string representation of the rectangle using the print_symbol.
+        Returns a string representation of the
+        rectangle using the print_symbol.
 
         Returns:
             A string representing the rectangle.
@@ -112,7 +113,8 @@ class Rectangle:
 
     def __repr__(self):
         """
-        Returns a string representation of the rectangle in the format 'Rectangle(width, height)'.
+        Returns a string representation of the rectangle
+        in the format 'Rectangle(width, height)'.
 
         Returns:
             str: A string representation of the rectangle.
@@ -121,7 +123,8 @@ class Rectangle:
 
     def __del__(self):
         """
-        Destructor method that decrements the number_of_instances count and prints a message.
+        Destructor method that decrements the
+        number_of_instances count and prints a message.
         """
         Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
@@ -129,7 +132,8 @@ class Rectangle:
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """
-        Compares two rectangles based on their areas and returns the bigger one.
+        Compares two rectangles based on their areas
+        and returns the bigger one.
 
         Args:
             rect_1 (Rectangle): The first rectangle.
@@ -147,7 +151,8 @@ class Rectangle:
     @classmethod
     def square(cls, size=0):
         """
-        Creates a new Rectangle instance with equal width and height (a square).
+        Creates a new Rectangle instance with
+        equal width and height (a square).
 
         Args:
             size (int): The size of the square.
