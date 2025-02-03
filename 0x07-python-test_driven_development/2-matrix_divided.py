@@ -7,13 +7,13 @@ def matrix_divided(matrix, div):
     Divides all elements of a matrix by a scalar value.
 
     Args:
-        matrix (list of lists): A matrix (list of lists) containing 
+        matrix (list of lists): A matrix (list of lists) containing
             integers or floats.
-        div (int or float): The scalar value by which to divide 
+        div (int or float): The scalar value by which to divide
             each matrix element.
 
     Returns:
-        list of lists: A new matrix with the elements divided by `div`, 
+        list of lists: A new matrix with the elements divided by `div`,
             rounded to two decimal places.
 
     Raises:
@@ -25,7 +25,7 @@ def matrix_divided(matrix, div):
     import decimal
 
     error_msg = "matrix must be a matrix (list of lists) of integers/floats"
-    
+
     if type(matrix) is not list:
         raise TypeError(error_msg)
 
