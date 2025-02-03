@@ -7,11 +7,14 @@ def matrix_divided(matrix, div):
     Divides all elements of a matrix by a scalar value.
 
     Args:
-        matrix (list of lists): A matrix (list of lists) containing integers or floats.
-        div (int or float): The scalar value by which to divide each matrix element.
+        matrix (list of lists): A matrix (list of lists) containing 
+            integers or floats.
+        div (int or float): The scalar value by which to divide 
+            each matrix element.
 
     Returns:
-        list of lists: A new matrix with the elements divided by `div`, rounded to two decimal places.
+        list of lists: A new matrix with the elements divided by `div`, 
+            rounded to two decimal places.
 
     Raises:
         TypeError: If `matrix` is not a list of lists of integers/floats.
@@ -40,14 +43,15 @@ def matrix_divided(matrix, div):
 
     if len(set(len_rows)) > 1:
         raise TypeError("Each row of the matrix must have the same size")
-    
+
     if type(div) not in [int, float]:
         raise TypeError("div must be a number")
-    
+
     if int(div) == 0:
         raise ZeroDivisionError("division by zero")
 
-    new_matrix = list(map(lambda row:
-                          list(map(lambda x: round(x / div, 2), row)), matrix))
-    
+    new_matrix = list(
+        map(lambda row: list(map(lambda x: round(x / div, 2), row)), matrix)
+    )
+
     return new_matrix
