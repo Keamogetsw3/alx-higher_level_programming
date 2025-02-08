@@ -1,0 +1,37 @@
+=======================
+How to Use and test for '1-my_list.py'
+=======================
+
+This module defines a class `MyList` that inherits from `list`.
+
+ Module overview
+=======================
+
+Imports the module named '1-my_list' and retrieves its docstring.
+
+Module Docstring:
+>>> m = __import__("1-my_list").__doc__
+>>> len(m) > 1
+True
+
+Class Overview
+=======================
+
+Imports a class named 'MyList' from a module named '1-my_list'. 
+
+Import module:
+>>> MyList = __import__("1-my_list").MyList
+
+Import 'MyList' class from the '1-my_list' module and retrieve its docstring.
+
+Checking for class docstring:
+>>> c = __import__("1-my_list").MyList.__doc__
+>>> len(c) > 1
+True
+
+Check if 'MyList' inherits 'list'.
+
+Checking that MyList is a subclass of list:
+>>> MyList = __import__('1-my_list').MyList
+>>> issubclass(MyList, list)
+True
